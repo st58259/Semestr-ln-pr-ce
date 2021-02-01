@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1" username="George Miller" email="george@gmail.com" member_since="11. 01. 2021" role="user"/>
+  <user id="2" username="PhotoGuy12" email="photo@gmail.com" member_since="11. 01. 2021" role="user"/>
+  <user id="3" username="Carly Brown" email="carly@gmail.com" member_since="22. 01. 2021" role="user"/>
+  <user id="8" username="admin" email="admin@gmail.com" member_since="28. 01. 2021" role="admin"/>
+</users>

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: mainFont;
+  src: url(../fonts/Archivo-Regular.ttf);
+}
+
+/*#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height 
+  background-color: cadetblue;
+  font-family: mainFont;
+  float: left;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height 
+  float: left;
+}*/
+
+.foot {
+  /*position: absolute;*/
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+  background-color: #ff7315;
+  font-family: mainFont;
+  float: left;
+}
+
+.foot1 {
+  width: 100%;
+  height: 300px;
+  float: left;
+}

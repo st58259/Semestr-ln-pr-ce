@@ -1,0 +1,98 @@
+:root {
+  --black-color: #3a3535;
+  --orange-color: #ff7315;
+  --white-color: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url(../fonts/Archivo-Regular.ttf);
+}
+
+body {
+  font-family: mainFont;
+  background-color: var(--black-color);
+}
+
+.login-container {
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  margin-top: 25vh;
+}
+
+.login-container h1 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+form input {
+  outline: 0;
+  background: var(--white-color);
+  color: var(--black-color);
+  width: 80%;
+  border: 0;
+  margin-left: 10%;
+  margin-top: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  color: var(--white-color);
+  text-transform: uppercase;
+  width: 80%;
+  height: 40px;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  background-color: var(--black-color);
+  border: 2px solid var(--orange-color);
+  transition: 0.4s;
+}
+
+form input[type="submit"]:hover {
+  color: var(--orange-color);
+  background-color: var(--white-color);
+  border: 2px solid var(--white-color);
+}
+
+.err {
+  color: var(--white-color);
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.to-reg {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.to-reg a {
+  text-decoration: none;
+  color: var(--orange-color);
+}
+
+.err {
+  margin-top: 5px;
+  margin-bottom: -15px;
+  color: var(--orange-color);
+}
